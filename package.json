@@ -1,6 +1,6 @@
 {
   "name": "typedata-suggestions-vue",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Vue-плагин для сервиса подсказок TypeData.net",
   "main": "dist/typedata-suggestions-vue.ssr.js",
   "browser": "dist/typedata-suggestions-vue.esm.js",
@@ -23,7 +23,7 @@
     "typedata",
     "поиск по адресам"
   ],
-  "homepage": "https://github.com/rave-technology/typedata-suggestions-vue",
+  "homepage": "https://typedata.net/",
   "files": [
     "dist/*",
     "src/**/*.vue"
