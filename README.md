@@ -6,10 +6,6 @@
 
 Vue-плагин для сервиса подсказок [TypeData.net](https://typedata.net?utm_source=github&utm_medium=vue-component).
 
-| Версия   | Описание          |
-|-----------|----------------------|
-| 1.\*.\*   | Версия для Vue-2 |
-
 ## Установка
 
 [npm package](https://www.npmjs.com/package/typedata-suggestions-vue)
@@ -77,5 +73,8 @@ $ npm install typedata-suggestions-vue --save
 ## Зависимости
 - [axios](https://github.com/axios/axios)
 - [vue-word-highlighter](https://github.com/kawamataryo/vue-word-highlighter)
+
+
+## [LICENSE](https://github.com/rave-technology/typedata-suggestions-vue/blob/master/LICENSE)
 
 Copyright (c) 2023 Rave Technology. Licensed under the [MIT license](https://github.com/rave-technology/typedata-suggestions-vue/blob/master/LICENSE).

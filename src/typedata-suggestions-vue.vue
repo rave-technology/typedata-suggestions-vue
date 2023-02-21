@@ -5,7 +5,7 @@
         <input
             type="text"
             :class="defaultClass+'__input'"
-            placeholder=""
+            :placeholder="placeholder"
             v-model="queryInput"
             @input="onInputChange"
             @keydown="onKeyPress"
@@ -112,10 +112,11 @@ export default {
   },
   computed: {},
   async created() {
-    this.inputQuery = this.query ? this.query : '';
+    this.queryInput = this.query ? this.query : '';
 
     if (this.autoload && this.query) {
-      this.suggestions = await this.fetchSuggestions();
+      this.suggestions = await this.suggest();
+      this.focused = true;
     }
   },
   methods: {

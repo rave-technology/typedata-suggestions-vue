@@ -1,4 +1,3 @@
-ч
 // Import vue component
 import component from '@/typedata-suggestions-vue.vue';
 
